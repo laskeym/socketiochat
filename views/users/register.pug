@@ -1,0 +1,27 @@
+doctype
+html
+  head
+    title Registration
+  body
+    h1 Registration
+    p(style={color: red}) #{message}
+    form(method="POST")
+      label First Name:
+      br
+      input(type="text" name="firstName")
+      br
+      label Last Name:
+      br
+      input(type="text" name="lastName")
+      br
+      label Email:
+      br
+      input(type="email" name="email")
+      br
+      label Password:
+      br
+      input(type="password" name="password")
+      br
+      input(type="submit" value="Register")
+
+    

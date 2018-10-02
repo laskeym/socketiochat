@@ -1,0 +1,14 @@
+doctype
+html
+  head
+    title Chat
+  body
+    a(href="/") Home
+    ul(id="messages")
+
+    form
+      input(type="text", id="m", autocomplete="off")
+      button Send
+
+    script(src="/socket.io/socket.io.js")
+    script(src="/js/client.js")
